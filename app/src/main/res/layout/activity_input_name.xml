@@ -4,27 +4,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".InputNameActivity">
 
-    <TextView
-        android:id="@+id/welcome_label"
+    <EditText
+        android:id="@+id/firstname_input"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/edit_button"
-        app:layout_constraintHorizontal_bias="0.315"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toStartOf="@+id/save_button"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        tools:layout_editor_absoluteY="335dp" />
 
     <Button
-        android:id="@+id/edit_button"
+        android:id="@+id/save_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="340dp"
-        android:layout_marginEnd="40dp"
-        android:text="@string/edit_btn_label"
+        android:layout_marginEnd="64dp"
+        android:text="@string/save_btn_label"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
+        tools:layout_editor_absoluteY="332dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">DAA-Labo1</string>
+    <string name="welcome_empty">Bienvenue, veuillez entrer votre nom</string>
+    <string name="welcome_with_name">Bienvenue %1$s !</string>
+    <string name="edit_btn_label">Edit</string>
+    <string name="save_btn_label">Confirm</string>
 </resources>
