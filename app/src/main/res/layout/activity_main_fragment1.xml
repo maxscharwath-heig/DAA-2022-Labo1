@@ -6,4 +6,21 @@
     android:layout_height="match_parent"
     tools:context=".MainActivityFragment1">
 
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainerViewCounter"
+        android:name="ch.heigvd.daa_labo1.fragment.CounterFragment"
+        android:layout_width="match_parent"
+        android:layout_height="362dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout="@layout/fragment_counter" />
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainerViewColor"
+        android:name="ch.heigvd.daa_labo1.fragment.ColorFragment"
+        android:layout_width="match_parent"
+        android:layout_height="367dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout="@layout/fragment_color" />
 </androidx.constraintlayout.widget.ConstraintLayout>
