@@ -4,4 +4,8 @@
     <string name="welcome_with_name">Bienvenue %1$s !</string>
     <string name="edit_btn_label">Edit</string>
     <string name="save_btn_label">Confirm</string>
+    <string name="btn_next">Next</string>
+    <string name="btn_close">Close</string>
+    <string name="btn_prev">Prev</string>
+    <string name="step">Step</string>
 </resources>
