@@ -1,4 +1,4 @@
-package ch.heigvd.iict.and.labo2.fragments
+package ch.heigvd.daa_labo1.fragment
 
 import android.graphics.Color
 import android.os.Bundle
