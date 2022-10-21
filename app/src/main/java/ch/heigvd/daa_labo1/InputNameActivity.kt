@@ -6,6 +6,13 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
 
+/**
+ * DAA - Labo 1
+ *
+ * @author Nicolas Crausaz
+ * @author Lazar Pavicevic
+ * @author Maxime Scharwath
+ */
 class InputNameActivity : AppCompatActivity() {
     companion object {
         const val USER_FIRSTNAME_KEY = "FIRSTNAME_KEY"

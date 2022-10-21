@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">DAA-Labo1</string>
+    <string name="launch_activity1_btn">Activity 1</string>
+    <string name="launch_activity2_btn">Activity 2</string>
+    <string name="launch_activity3_btn">Activity 3</string>
     <string name="welcome_empty">Bienvenue, veuillez entrer votre nom</string>
     <string name="welcome_with_name">Bienvenue %1$s !</string>
     <string name="edit_btn_label">Edit</string>
