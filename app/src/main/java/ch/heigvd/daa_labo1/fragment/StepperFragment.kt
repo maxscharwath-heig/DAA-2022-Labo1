@@ -7,6 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import ch.heigvd.daa_labo1.R
+import ch.heigvd.daa_labo1.WelcomeActivity
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -18,12 +19,25 @@ private const val ARG_STEP = "ARG_STEP"
  * create an instance of this fragment.
  */
 class StepperFragment : Fragment() {
-    private var stepValue: String? = null
+    private var stepValue: String = "DEFAULT VALUE"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         arguments?.let {
-            stepValue = it.getString(ARG_STEP)
+            stepValue = it.getString(ARG_STEP).toString()
+
+        }
+    }
+
+    override fun onSaveInstanceState(savedInstanceState: Bundle) {
+        super.onSaveInstanceState(savedInstanceState)
+        savedInstanceState.putString(ARG_STEP, stepValue)
+    }
+
+    override fun onViewStateRestored(savedInstanceState: Bundle?) {
+        super.onViewStateRestored(savedInstanceState)
+        if (savedInstanceState != null) {
+            stepValue = savedInstanceState.getString(ARG_STEP).toString()
         }
     }
 
