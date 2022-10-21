@@ -21,12 +21,19 @@ class InputNameActivity : AppCompatActivity() {
         firstnameInput = findViewById(R.id.firstname_input)
         saveButton = findViewById(R.id.save_button)
 
+        // Get the given intent parameter
+        firstnameInput.setText(intent.getStringExtra(USER_FIRSTNAME_KEY))
+
         saveButton.setOnClickListener {
-            val fieldValue = firstnameInput.text.trim()
+            // Build & send back the activity result
             val data = Intent()
-            data.putExtra(USER_FIRSTNAME_KEY, fieldValue)
+            data.putExtra(USER_FIRSTNAME_KEY, getFirstname())
             setResult(RESULT_OK, data)
             finish()
         }
+    }
+
+    private fun getFirstname(): String {
+        return firstnameInput.text.toString().trim()
     }
 }
