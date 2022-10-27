@@ -10,7 +10,8 @@
         android:id="@+id/fragmentContainerViewCounter"
         android:name="ch.heigvd.daa_labo1.fragment.CounterFragment"
         android:layout_width="match_parent"
-        android:layout_height="362dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/fragmentContainerViewColor"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:layout="@layout/fragment_counter" />
@@ -19,8 +20,9 @@
         android:id="@+id/fragmentContainerViewColor"
         android:name="ch.heigvd.daa_labo1.fragment.ColorFragment"
         android:layout_width="match_parent"
-        android:layout_height="367dp"
+        android:layout_height="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fragmentContainerViewCounter"
         tools:layout="@layout/fragment_color" />
 </androidx.constraintlayout.widget.ConstraintLayout>
