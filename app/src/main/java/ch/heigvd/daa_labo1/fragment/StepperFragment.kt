@@ -19,7 +19,7 @@ private const val ARG_STEP = "ARG_STEP"
  * create an instance of this fragment.
  */
 class StepperFragment : Fragment() {
-    private var stepValue: String = "DEFAULT VALUE"
+    private var stepValue: String = "0"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
