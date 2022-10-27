@@ -5,8 +5,8 @@
     <string name="launch_activity3_btn">Activity 3</string>
     <string name="welcome_empty">Bienvenue, veuillez entrer votre nom</string>
     <string name="welcome_with_name">Bienvenue %1$s !</string>
-    <string name="edit_btn_label">Edit</string>
-    <string name="save_btn_label">Confirm</string>
+    <string name="edit_btn_label">Editer</string>
+    <string name="save_btn_label">Sauver</string>
     <string name="btn_next">Next</string>
     <string name="btn_close">Close</string>
     <string name="btn_prev">Prev</string>
