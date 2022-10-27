@@ -19,7 +19,7 @@ class MainActivityFragment2 : AppCompatActivity() {
                 .commit()
         }
 
-        findViewById<Button>(R.id.btn_prev).setOnClickListener {
+        findViewById<Button>(R.id.btn_back).setOnClickListener {
             // Pop the back stack to go back to the previous step
             supportFragmentManager.popBackStack()
         }

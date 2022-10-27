@@ -9,6 +9,6 @@
     <string name="save_btn_label">Sauver</string>
     <string name="btn_next">Next</string>
     <string name="btn_close">Close</string>
-    <string name="btn_prev">Prev</string>
+    <string name="btn_back">Back</string>
     <string name="step">Step</string>
 </resources>
