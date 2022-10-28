@@ -10,6 +10,13 @@ import ch.heigvd.daa_labo1.R
 
 private const val ARG_STEP = "ARG_STEP"
 
+/**
+ * DAA - Labo 1
+ *
+ * @author Nicolas Crausaz
+ * @author Lazar Pavicevic
+ * @author Maxime Scharwath
+ */
 class StepperFragment : Fragment() {
     private var stepValue: String = "0"
 

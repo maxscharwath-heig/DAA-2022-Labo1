@@ -5,6 +5,13 @@ import android.os.Bundle
 import android.widget.Button
 import ch.heigvd.daa_labo1.fragment.StepperFragment
 
+/**
+ * DAA - Labo 1
+ *
+ * @author Nicolas Crausaz
+ * @author Lazar Pavicevic
+ * @author Maxime Scharwath
+ */
 class MainActivityFragment2 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
